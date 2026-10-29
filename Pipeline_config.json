@@ -1,0 +1,41 @@
+
+{
+  "project_name": "GridShield-AI",
+  "environment": "Base44-Sandbox-Workspace",
+  "architecture_type": "Agentic-Multi-Agent-System",
+  "pipeline_stages": {
+    "1_DETECT": {
+      "status": "active",
+      "monitoring_protocols": ["IEC-61850", "Modbus-TCP", "IEEE-C37.118"]
+    },
+    "2_CORRELATE": {
+      "logic": "temporal-time-series-correlation",
+      "cross_check": ["network_telemetry", "electrical_physics_metrics"]
+    },
+    "3_INVESTIGATE": {
+      "engine": "autonomous-root-cause-analysis",
+      "classification_categories": ["Cyber-Physical Attack", "Hardware Fault", "Ambient Disturbance"]
+    },
+    "4_ASSESS_RISK": {
+      "scoring_range": "0-100",
+      "explainable_ai_layer": "enabled"
+    },
+    "5_RECOMMEND": {
+      "strategy": "automated-containment-modeling",
+      "action_profiles": ["control_loop_isolation", "rogue_device_blocking"]
+    },
+    "6_HUMAN_APPROVAL_REQUIRED": {
+      "gatekeeper_mode": "strict-lockout",
+      "ui_modal_state": "freeze_automated_actuation",
+      "handshake_required": true
+    },
+    "7_ACTUATE": {
+      "execution_token": "cryptographic_operator_release",
+      "target_partition": "simulated_substation_grid"
+    },
+    "8_AUDIT": {
+      "ledger_registry": "tamper_resistant_local_logs",
+      "payload_format": "JSON_structured_trail"
+    }
+  }
+}
