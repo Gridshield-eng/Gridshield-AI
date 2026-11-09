@@ -22,3 +22,8 @@ The AI Agent transitions sequentially through a hardcoded state machine to manag
 * **Operational Efficiency:** Reduces critical infrastructure investigation windows from **120 minutes down to 1 minute** (99% optimization gain).
 * **Societal Resilience:** Ensures continuous power distribution to hospital intensive care networks, municipal water facilities, and emergency responder architectures.
 
+
+## 🎬 Live System Demo Video
+Click the link below to watch the interactive Agentic AI simulation and real-time governance voiceover workflow on Base44:
+
+[▶ Watch the GridShield AI Demo Video](https://drive.google.com/file/d/1CAE7pqK-99byhdFM3HQkRq7JDSBtuLJm/view?usp=drivesdk
